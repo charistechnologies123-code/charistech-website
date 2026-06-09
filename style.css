@@ -553,6 +553,7 @@ p {
 .hero-visual {
   position: relative;
   animation: fadeIn 1.2s ease;
+  transform: none;
 }
 
 .hero-image {

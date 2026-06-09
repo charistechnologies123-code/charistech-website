@@ -890,21 +890,5 @@ if (homeGallery) {
     });
   });
 
-  // ============================================
-  // PARALLAX EFFECT FOR HERO VISUAL
-  // ============================================
-
-  const heroVisual = document.querySelector('.hero-visual');
-  if (heroVisual) {
-    window.addEventListener('scroll', throttle(function() {
-      const scrollPosition = window.pageYOffset;
-      const heroSection = document.querySelector('.hero');
-      
-      if (heroSection && scrollPosition < heroSection.offsetHeight) {
-        heroVisual.style.transform = `translateY(${scrollPosition * 0.5}px)`;
-      }
-    }, 20));
-  }
-
   console.log('Charis Technologies - Website Loaded Successfully! 🚀');
 });
