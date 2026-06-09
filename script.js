@@ -124,20 +124,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const promo = document.querySelector('.promo-banner');
     if (!promo) return;
     const promoClose = promo.querySelector('.promo-close');
-    const promoKey = 'promo_future_skills_closed_v1';
-
-    try {
-      if (localStorage.getItem(promoKey) === '1') {
-        promo.style.display = 'none';
-        return;
-      }
-    } catch (e) {
-      // localStorage may be unavailable; ignore
-    }
 
     promoClose?.addEventListener('click', () => {
       promo.style.display = 'none';
-      try { localStorage.setItem(promoKey, '1'); } catch (e) {}
     });
   })();
   
