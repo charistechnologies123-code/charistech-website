@@ -262,6 +262,7 @@ p {
   max-width: 1400px;
   margin: 0 auto;
   padding: 1rem 2rem;
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1864,6 +1865,23 @@ section {
   
   .nav-container {
     padding: 1rem 1.5rem;
+  }
+
+  /* Place hamburger above other elements and align to right inside nav */
+  .nav-container .hamburger {
+    position: fixed;
+    right: 1rem;
+    top: 0.8rem;
+    display: flex;
+    z-index: 3000;
+    padding: 6px;
+    border-radius: 8px;
+    box-shadow: var(--shadow-sm);
+    background: rgba(255,255,255,0.02);
+  }
+  .nav-container .hamburger span {
+    width: 34px;
+    height: 4px;
   }
   
   /* Cards Grid */
