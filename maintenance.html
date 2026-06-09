@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Charis Technologies website is temporarily under maintenance. We are making improvements and will be back shortly.">
+    <title>Maintenance | Charis Technologies</title>
+    <link rel="icon" type="image/png" href="assets/fav.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .maintenance-hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 3rem 2rem;
+            background: radial-gradient(circle at top, rgba(233, 30, 99, 0.14), transparent 35%),
+                        radial-gradient(circle at bottom right, rgba(139, 47, 201, 0.18), transparent 30%),
+                        var(--primary-blue);
+        }
+
+        .maintenance-card {
+            max-width: 920px;
+            width: 100%;
+            background: rgba(255,255,255,0.98);
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-xl);
+            padding: 3rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .maintenance-card::before {
+            content: "";
+            position: absolute;
+            top: -40px;
+            right: -40px;
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            background: var(--gradient-accent);
+            opacity: 0.18;
+        }
+
+        .maintenance-card::after {
+            content: "";
+            position: absolute;
+            bottom: -30px;
+            left: -30px;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background: var(--accent-pink);
+            opacity: 0.15;
+        }
+
+        .maintenance-icon {
+            font-size: 4.5rem;
+            margin-bottom: 1.25rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: var(--gradient-primary);
+            color: var(--white);
+            box-shadow: var(--shadow-md);
+        }
+
+        .maintenance-card h1 {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            font-size: clamp(2rem, 4vw, 3rem);
+            color: var(--primary-blue);
+        }
+
+        .maintenance-card p {
+            color: var(--dark-gray);
+            font-size: 1.05rem;
+            margin-bottom: 2rem;
+            max-width: 720px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .maintenance-actions {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+        @media (max-width: 720px) {
+            .maintenance-card {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="maintenance-hero" id="main-content">
+        <section class="maintenance-card">
+            <div class="maintenance-icon">🛠️</div>
+            <h1>We'll Be Back Soon</h1>
+            <p>Charis Technologies is currently undergoing scheduled maintenance to improve your experience. Thanks for your patience — we are working hard to bring the site back online quickly.</p>        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="Charis Technologies Logo">
+                    <div class="logo-text">
+                        <span class="logo-main" style="color: white;">CHARIS TECHNOLOGIES</span>
+                    </div>
+                </div>
+                <p class="footer-description">Empowering generations through technology...</p>
+                <div class="social-links">
+                    <a href="https://facebook.com/Charis_Technologies" target="_blank" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com/charistechnologies_official" target="_blank" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://youtube.com/@charistechnologies?si=3oK4QC-bNrfTRnDN" target="_blank" class="social-link" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://linkedin.com/company/charistechnologies" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Our Programs</h3>
+                <ul>
+                    <li><a href="program-details.html?program=digital-literacy">Digital & AI Literacy (DAIL)</a></li>
+                    <li><a href="program-details.html?program=summer-bootcamp">Future Skills Bootcamp</a></li>
+                    <li><a href="program-details.html?program=school-training">Tailored ICT Training For Schools</a></li>
+                    <li><a href="program-details.html?program=adult-training">Adult ICT Training</a></li>
+                    <li><a href="programs.html">See More...</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Reach out to Us</h3>
+                <ul>
+                    <li><i class="fas fa-phone"></i> +234 901 086 9268</li>
+                    <li><i class="fas fa-envelope"></i> charistechnologies123@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Opposite Former Adebayo Hospital, Around Former Gov Akala's Residence, Randa Area, Ogbomoso.</li>
+                </ul>
+                <h3 style="margin-top: 1.5rem;">Connect with us</h3>
+                <ul>
+                    <li><i class="fab fa-facebook"></i> Charis_Technologies</li>
+                    <li><i class="fab fa-instagram"></i> charistechnologies_official</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Charis Technologies. All rights reserved. | Empowering Generations Through Technology</p>
+        </div>
+    </footer>
+</body>
+
+</html>

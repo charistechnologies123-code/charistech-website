@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detailed information about Charis Technologies training programs">
+
+    <title>Program Details - Charis Technologies</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .program-detail-hero {
+            background-image:
+                linear-gradient(135deg, rgba(26, 43, 92, 0.82) 0%, rgba(45, 74, 142, 0.78) 100%),
+                var(--program-hero-image, linear-gradient(135deg, #1a2b5c 0%, #2d4a8e 100%));
+            background-size: cover;
+            background-position: center;
+            padding: 8rem 2rem 4rem;
+            text-align: center;
+            color: white;
+        }
+
+        .program-detail-content {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .curriculum-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .curriculum-list li {
+            padding: 1rem;
+            margin-bottom: 0.75rem;
+            background: var(--light-gray);
+            border-left: 4px solid var(--accent-purple);
+            border-radius: var(--radius-sm);
+        }
+
+        .curriculum-list li:hover {
+            background: var(--light-blue);
+            transform: translateX(5px);
+            transition: all 0.3s ease;
+        }
+
+        .program-benefits {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .benefit-item {
+            text-align: center;
+            padding: 2rem;
+            background: var(--white);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+        }
+
+        .benefit-item:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .benefit-icon {
+            font-size: 3rem;
+            color: var(--accent-purple);
+            margin-bottom: 1rem;
+        }
+
+        .program-detail-hero h1,
+        .program-detail-hero p,
+        .program-detail-hero div {
+            text-shadow: 0 6px 20px rgba(0, 0, 0, 0.28);
+        }
+
+        .tool-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0 0;
+        }
+
+        .tool-card {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem 1.1rem;
+            border-radius: var(--radius-md);
+            background: var(--white);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .tool-logo {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background: #f5f7fa;
+            object-fit: contain;
+            padding: 0.35rem;
+            flex-shrink: 0;
+        }
+
+        .tool-name {
+            font-weight: 600;
+            color: var(--primary-blue);
+            margin-bottom: 0;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- ============================================
+         NAVIGATION BAR
+         ============================================ -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="Charis Technologies Logo">
+                <div class="logo-text">
+                    <span class="logo-main">CHARIS TECHNOLOGIES</span>
+                    <span class="logo-tagline">...empowering generations through technology</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="programs.html" class="nav-link">Programs</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                <li><a href="projects.html" class="nav-link nav-link-featured">Projects</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         PROGRAM DETAILS
+         ============================================ -->
+    <main id="main-content">
+        <!-- Digital Literacy Program -->
+        <section id="digital-literacy" class="program-detail-section">
+            <div class="program-detail-hero" style="--program-hero-image: url('assets/digital-literacy.jpeg');">
+                <div class="program-detail-content">
+                    <h1 style="color: #ffffff;">Digital & AI Literacy (DAIL)</h1>
+                    <p style="color:#ffffff;font-size: 1.2rem; max-width: 700px; margin: 1rem auto;">Master essential
+                        digital skills, AI tools, online safety, and responsible technology use.</p>
+                    <div style="display: flex; gap: 2rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;">
+                        <div><i class="fas fa-clock"></i> 4 Months</div>
+                        <div><i class="fas fa-tag"></i> ₦60,000</div>
+                        <div><i class="fas fa-users"></i> All Age </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" style="padding: 4rem 2rem;">
+                <div class="program-detail-content">
+                    <div class="card" style="margin-bottom: 3rem;">
+                        <h2 style="color: var(--accent-purple); margin-bottom: 1.5rem;">Program Overview</h2>
+                        <p style="font-size: 1.1rem; line-height: 1.8;">
+                            In today's digital age, being digitally literate is no longer optional, it's essential. This
+                            comprehensive program equips you with fundamental computer skills, AI literacy, internet literacy, online
+                            safety practices, and digital citizenship principles. Perfect for beginners who want to
+                            navigate the digital world with confidence.
+                        </p>
+                    </div>
+
+                    <div class="program-benefits">
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-laptop"></i></div>
+                            <h3>Computer Basics</h3>
+                            <p>Hardware, software, and operating systems</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-shield-alt"></i></div>
+                            <h3>Online Safety</h3>
+                            <p>Protect yourself from cyber threats</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-globe"></i></div>
+                            <h3>Internet Skills</h3>
+                            <p>Browse, search, and communicate online</p>
+                        </div>
+
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-tasks"></i></div>
+                            <h3>Productivity Tools</h3>
+                            <p>Use tools like Google Workspace and Microsoft Office efficiently</p>
+                        </div>
+
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-robot"></i></div>
+                            <h3>AI Literacy</h3>
+                            <p>Understand and responsibly use AI tools for learning and work</p>
+                        </div>
+
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-briefcase"></i></div>
+                            <h3>Internship Opportunity</h3>
+                            <p>Access real-world internship pathways to build experience and confidence</p>
+                        </div>
+
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-folder-open"></i></div>
+                            <h3>Digital Portfolio</h3>
+                            <p>Build a digital portfolio showcasing your projects and skills</p>
+                        </div>
+
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-certificate"></i></div>
+                            <h3>Certification</h3>
+                            <p>Industry-recognized certificate</p>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="card">
+                        <h2 style="color: var(--accent-purple); margin-bottom: 1.5rem;">What You'll Learn</h2>
+                        <ul class="curriculum-list">
+                            <li><strong>Computer Fundamentals:</strong> Hardware components, input/output devices, storage</li>
+                            <li><strong>Operating Systems:</strong> Windows basics, file management, system settings</li>
+                            <li><strong>Internet & Browsing:</strong> Web browsers, search engines, online resources</li>
+                            <li><strong>Email Communication:</strong> Creating accounts, composing emails, attachments</li>
+                            <li><strong>Digital Safety:</strong> Passwords, phishing, malware protection</li>
+                            <li><strong>Social Media Literacy:</strong> Responsible use, privacy settings, digital footprint</li>
+                            <li><strong>Online Tools:</strong> Cloud storage, collaboration tools, productivity apps</li>
+                            <li><strong>Digital Citizenship:</strong> Ethics, etiquette, and responsible online behavior</li>
+                        </ul>
+                    </div>
+                    -->
+
+                    <div style="text-align: center; margin-top: 3rem;">
+                        <a href="https://wa.link/9s1uhw" class="btn btn-primary" style="margin-right: 1rem;"
+                            target="_blank">Enroll Now</a>
+                        <a href="https://drive.google.com/file/d/19klwtFMMOw9J_EYdQTKwiy6ZH8bFjWtY/view?usp=sharing"
+                            class="btn btn-outline" target="_blank">View Curriculum</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Similar sections can be added for other programs -->
+
+
+        <!-- Future Skills Bootcamp -->
+        <section id="summer-bootcamp" class="program-detail-section bg-light" style="scroll-margin-top: 80px;">
+            <div class="program-detail-hero" style="--program-hero-image: url('assets/summer-bootcamp.jpg');">
+                <div class="program-detail-content">
+                    <h1 style="color: #ffffff;">Future Skills Bootcamp</h1>
+                    <p style="color:#ffffff;font-size: 1.2rem; max-width: 700px; margin: 1rem auto;">An exciting summer adventure into the
+                        world of tech for kids aged 9-16.</p>
+                    <div style="display: flex; gap: 2rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;">
+                        <div><i class="fas fa-clock"></i> 6 Weeks</div>
+                        <div><i class="fas fa-users"></i> Ages 9-16</div>
+                        <div><i class="fas fa-calendar"></i> Summer Only</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="padding: 4rem 2rem;">
+                <div class="program-detail-content">
+                    <div class="card" style="margin-bottom: 3rem;">
+                        <h2 style="color: var(--accent-purple); margin-bottom: 1.5rem;">Program Overview</h2>
+                        <p style="font-size: 1.1rem; line-height: 1.8;">
+                            Transform your child's summer into an exciting tech adventure! Our intensive bootcamp
+                            introduces young minds to tech through fun, interactive projects. Kids learn Python basics, Robotics, Digital & AI Literacy, Cyber Security, and build real projects they can show off to
+                            friends and family.
+                        </p>
+                    </div>
+
+                    <div class="program-benefits">
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-tools"></i></div>
+                            <h3>Hands-on Learning</h3>
+                            <p>Learn by doing through guided practical sessions</p>
+                        </div>
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-project-diagram"></i></div>
+                            <h3>Build Projects</h3>
+                            <p>Create real projects you can proudly showcase</p>
+                        </div>
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-users"></i></div>
+                            <h3>Work in Squads</h3>
+                            <p>Collaborate with peers in small, supportive teams</p>
+                        </div>
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+                            <h3>Seasoned Instructors</h3>
+                            <p>Learn from experienced and child-friendly facilitators</p>
+                        </div>
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-lightbulb"></i></div>
+                            <h3>Creativity</h3>
+                            <p>Think creatively while solving real-world problems</p>
+                        </div>
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-smile-beam"></i></div>
+                            <h3>Fun Class</h3>
+                            <p>An engaging and enjoyable learning environment</p>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="card">
+                        <h2 style="color: var(--accent-purple); margin-bottom: 1.5rem;">Curriculum Highlights</h2>
+                        <ul class="curriculum-list">
+                            <li><strong>Week 1-2: Scratch Fundamentals</strong> - Introduction to coding concepts through visual programming</li>
+                            <li><strong>Week 3: Game Design</strong> - Create interactive games with characters and animations</li>
+                            <li><strong>Week 4: Python Introduction</strong> - Transition to text-based coding with Python</li>
+                            <li><strong>Week 5: Python Projects</strong> - Build calculators, quizzes, and simple apps</li>
+                            <li><strong>Week 6: Final Project</strong> - Create and present your own unique project</li>
+                        </ul>
+                    </div>
+                    
+                    -->
+
+                    <div style="text-align: center; margin-top: 3rem;">
+                        <a href="https://wa.link/jqhfau" class="btn btn-primary" style="margin-right: 1rem;"
+                            target="_blank">Register Your Child</a>
+                        <a href="#"
+                            class="btn btn-outline" target="_blank"> View Curriculum </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="school-training" class="program-detail-section bg-light" style="scroll-margin-top: 80px;">
+            <div class="program-detail-hero" style="--program-hero-image: url('assets/school-training.jpg');">
+                <div class="program-detail-content">
+                    <h1 style="color: #ffffff;">Tailored ICT Training For Schools</h1>
+                    <p style="color:#ffffff;font-size: 1.2rem; max-width: 700px; margin: 1rem auto;">Customized digital skills training designed for schools, learners, and educators.</p>
+                    <div style="display: flex; gap: 2rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;">
+                        <div><i class="fas fa-clock"></i> Flexible Duration</div>
+                        <div><i class="fas fa-school"></i> School-Based</div>
+                        <div><i class="fas fa-tag"></i> Custom Pricing</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="padding: 4rem 2rem;">
+                <div class="program-detail-content">
+                    <div class="card" style="margin-bottom: 3rem;">
+                        <h2 style="color: var(--accent-purple); margin-bottom: 1.5rem;">Program Overview</h2>
+                        <p style="font-size: 1.1rem; line-height: 1.8;">
+                            This program equips schools with a tailored ICT learning experience that matches their class level, timetable, and institutional goals. We work with both students and teachers to build practical digital confidence, computational thinking, and relevant classroom-ready technology skills.
+                        </p>
+                    </div>
+
+                    <div class="program-benefits">
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-chalkboard"></i></div>
+                            <h3>School-Fit Curriculum</h3>
+                            <p>Training plans adapted to your school structure and learner level</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-user-graduate"></i></div>
+                            <h3>Student Impact</h3>
+                            <p>Helps learners build practical digital and problem-solving skills</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-users-gear"></i></div>
+                            <h3>Teacher Support</h3>
+                            <p>Empowers educators to use modern tools confidently in class</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-laptop-house"></i></div>
+                            <h3>Flexible Delivery</h3>
+                            <p>Available as workshops, term sessions, camps, or special training blocks</p>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 3rem;">
+                        <a href="https://wa.link/lvpsyl" class="btn btn-primary" style="margin-right: 1rem;" target="_blank">Register Now</a>
+                        <a href="programs.html#school-training" class="btn btn-outline">Back to Programs</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="adult-training" class="program-detail-section" style="scroll-margin-top: 80px;">
+            <div class="program-detail-hero" style="--program-hero-image: url('assets/adult-training.jpg');">
+                <div class="program-detail-content">
+                    <h1 style="color: #ffffff;">Adult ICT Training</h1>
+                    <p style="color:#ffffff;font-size: 1.2rem; max-width: 700px; margin: 1rem auto;">Digital confidence training for adults who want to learn, work, and communicate better with technology.</p>
+                    <div style="display: flex; gap: 2rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;">
+                        <div><i class="fas fa-clock"></i> Flexible Duration</div>
+                        <div><i class="fas fa-user"></i> Adult Learners</div>
+                        <div><i class="fas fa-tag"></i> Custom Pricing</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="padding: 4rem 2rem;">
+                <div class="program-detail-content">
+                    <div class="card" style="margin-bottom: 3rem;">
+                        <h2 style="color: var(--accent-purple); margin-bottom: 1.5rem;">Program Overview</h2>
+                        <p style="font-size: 1.1rem; line-height: 1.8;">
+                            Adult ICT Training is built for people who want practical, everyday digital skills without feeling left behind. From computer basics and internet use to office productivity and digital communication, the training is paced for confidence, clarity, and real-life usefulness.
+                        </p>
+                    </div>
+
+                    <div class="program-benefits">
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-desktop"></i></div>
+                            <h3>Computer Essentials</h3>
+                            <p>Learn the basics of devices, files, typing, and system navigation</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-globe-africa"></i></div>
+                            <h3>Internet Confidence</h3>
+                            <p>Search, browse, send emails, and stay safe online</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-file-word"></i></div>
+                            <h3>Office Productivity</h3>
+                            <p>Use essential tools for documents, records, and communication</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-comments"></i></div>
+                            <h3>Practical Learning</h3>
+                            <p>Training is hands-on, patient, and focused on daily real-world tasks</p>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 3rem;">
+                        <a href="https://wa.link/dww6a2" class="btn btn-primary" style="margin-right: 1rem;" target="_blank">Register Now</a>
+                        <a href="programs.html#adult-training" class="btn btn-outline">Back to Programs</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="web-design" class="program-detail-section bg-light" style="scroll-margin-top: 80px;">
+            <div class="program-detail-hero" style="--program-hero-image: url('assets/web-design.png');">
+                <div class="program-detail-content">
+                    <h1 style="color: #ffffff;">Web Design (No Code)</h1>
+                    <p style="color:#ffffff;font-size: 1.2rem; max-width: 700px; margin: 1rem auto;">Build beautiful websites using modern no-code tools and design systems.</p>
+                    <div style="display: flex; gap: 2rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;">
+                        <div><i class="fas fa-clock"></i> 6 Months</div>
+                        <div><i class="fas fa-tag"></i> ₦180,000</div>
+                        <div><i class="fas fa-laptop-code"></i> No Code</div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="padding: 4rem 2rem;">
+                <div class="program-detail-content">
+                    <div class="card" style="margin-bottom: 3rem;">
+                        <h2 style="color: var(--accent-purple); margin-bottom: 1.5rem;">Program Overview</h2>
+                        <p style="font-size: 1.1rem; line-height: 1.8;">
+                            This program teaches you how to create modern, responsive websites without writing code. You will learn layout design, visual hierarchy, content structuring, and the practical use of no-code tools to build professional sites for personal brands, businesses, and clients.
+                        </p>
+                    </div>
+
+                    <div class="program-benefits">
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-pen-ruler"></i></div>
+                            <h3>Visual Design</h3>
+                            <p>Understand spacing, hierarchy, and user-friendly page structure</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-sitemap"></i></div>
+                            <h3>Page Building</h3>
+                            <p>Create multi-page websites without traditional coding</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-mobile-screen-button"></i></div>
+                            <h3>Responsive Layouts</h3>
+                            <p>Design sites that look good across desktop and mobile devices</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-briefcase"></i></div>
+                            <h3>Client-Ready Skills</h3>
+                            <p>Build portfolio-quality projects you can show or sell</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="margin-bottom: 3rem;">
+                        <h2 style="color: var(--accent-purple); margin-bottom: 1.5rem;">Tools You'll Use</h2>
+                        <div class="tool-grid">
+                            <div class="tool-card">
+                                <img class="tool-logo" src="https://cdn.simpleicons.org/wordpress/21759B" alt="WordPress logo">
+                                <p class="tool-name">WordPress</p>
+                            </div>
+                            <div class="tool-card">
+                                <img class="tool-logo" src="assets/bubble.png" alt="Bubble logo">
+                                <p class="tool-name">Bubble</p>
+                            </div>
+                            <div class="tool-card">
+                                <img class="tool-logo" src="https://cdn.simpleicons.org/webflow/146EF5" alt="Webflow logo">
+                                <p class="tool-name">Webflow</p>
+                            </div>
+                            <div class="tool-card">
+                                <img class="tool-logo" src="https://cdn.simpleicons.org/framer/0055FF" alt="Framer logo">
+                                <p class="tool-name">Framer</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 3rem;">
+                        <a href="https://wa.link/go10hj" class="btn btn-primary" style="margin-right: 1rem;" target="_blank">Register Now</a>
+                        <a href="programs.html#web-design" class="btn btn-outline">Back to Programs</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="graphics" class="program-detail-section" style="scroll-margin-top: 80px;">
+            <div class="program-detail-hero" style="--program-hero-image: url('assets/Graphics.jpg');">
+                <div class="program-detail-content">
+                    <h1 style="color: #ffffff;">Graphics Design</h1>
+                    <p style="color:#ffffff;font-size: 1.2rem; max-width: 700px; margin: 1rem auto;">Create compelling brand visuals for print, digital media, and business communication.</p>
+                    <div style="display: flex; gap: 2rem; justify-content: center; margin-top: 2rem; flex-wrap: wrap;">
+                        <div><i class="fas fa-clock"></i> Flexible Learning</div>
+                        <div><i class="fas fa-palette"></i> Design Focus</div>
+                        <div><i class="fas fa-tag"></i> ₦120,000 </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="padding: 4rem 2rem;">
+                <div class="program-detail-content">
+                    <div class="card" style="margin-bottom: 3rem;">
+                        <h2 style="color: var(--accent-purple); margin-bottom: 1.5rem;">Program Overview</h2>
+                        <p style="font-size: 1.1rem; line-height: 1.8;">
+                            Learn how to design logos, flyers, banners, promotional materials, and branded assets with a professional finish. This program combines design thinking with practical software use to help learners create visuals that communicate clearly and stand out.
+                        </p>
+                    </div>
+
+                    <div class="program-benefits">
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-bezier-curve"></i></div>
+                            <h3>Design Principles</h3>
+                            <p>Master balance, typography, color, and layout essentials</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-image"></i></div>
+                            <h3>Marketing Assets</h3>
+                            <p>Create flyers, social graphics, and promotional visuals</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-bullhorn"></i></div>
+                            <h3>Brand Identity</h3>
+                            <p>Design visuals that strengthen business and personal brands</p>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon"><i class="fas fa-folder-open"></i></div>
+                            <h3>Portfolio Output</h3>
+                            <p>Leave with real projects ready for showcase or client work</p>
+                        </div>
+                    </div>
+
+                    <div class="card" style="margin-bottom: 3rem;">
+                        <h2 style="color: var(--accent-purple); margin-bottom: 1.5rem;">Tools You'll Use</h2>
+                        <div class="tool-grid">
+                            <div class="tool-card">
+                                <img class="tool-logo" src="assets/ps.png" alt="Adobe Photoshop logo">
+                                <p class="tool-name">Adobe Photoshop</p>
+                            </div>
+                            <div class="tool-card">
+                                <img class="tool-logo" src="assets/ai.png" alt="Adobe Illustrator logo">
+                                <p class="tool-name">Adobe Illustrator</p>
+                            </div>
+                            <div class="tool-card">
+                                <img class="tool-logo" src="assets/canva.png" alt="Canva logo">
+                                <p class="tool-name">Canva</p>
+                            </div>
+                            <div class="tool-card">
+                                <img class="tool-logo" src="assets/pixellab.png" alt="PixelLab logo">
+                                <p class="tool-name">PixelLab</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="text-align: center; margin-top: 3rem;">
+                        <a href="https://wa.link/uyafw8" class="btn btn-primary" style="margin-right: 1rem;" target="_blank">Register Now</a>
+                        <a href="programs.html#graphics" class="btn btn-outline">Back to Programs</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="program-details-empty" hidden>
+            <div class="card">
+                <h2 style="color: var(--accent-purple); margin-bottom: 1rem;">Program Details Coming Soon</h2>
+                <p>We couldn't find a detailed page for that program yet, but we can still help you with more information.</p>
+                <div class="program-actions" style="justify-content: center;">
+                    <a href="programs.html" class="btn btn-secondary">Browse Programs</a>
+                    <a href="contact.html" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <section class="cta-section"
+            style="background: linear-gradient(135deg, #1a2b5c 0%, #2d4a8e 100%); padding: 5rem 2rem; text-align: center;">
+            <div class="container">
+                <h2 style="color: white; font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1.5rem;">Can't Find What
+                    You're Looking For?</h2>
+                <p
+                    style="color: rgba(255, 255, 255, 0.9); font-size: clamp(1rem, 2vw, 1.25rem); margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto;">
+                    We offer customized programs tailored to your specific needs. Contact us to discuss a program
+                    designed just for you.
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                    <a href="programs.html" class="btn btn-outline" style="border-color: white; color: white;">View All
+                        Programs</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="Charis Technologies Logo">
+                    <div class="logo-text">
+                        <span class="logo-main" style="color: white;">CHARIS TECHNOLOGIES</span>
+                    </div>
+                </div>
+                <p class="footer-description">Empowering generations through technology...</p>
+                <div class="social-links">
+                    <a href="https://facebook.com/Charis_Technologies" target="_blank" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com/charistechnologies_official" target="_blank" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://youtube.com/@charistechnologies?si=3oK4QC-bNrfTRnDN" target="_blank" class="social-link" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://linkedin.com/company/charistechnologies" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Our Programs</h3>
+                <ul>
+                    <li><a href="program-details.html?program=digital-literacy">Digital & AI Literacy (DAIL)</a></li>
+                    <li><a href="program-details.html?program=summer-bootcamp">Future Skills Bootcamp</a></li>
+                    <li><a href="program-details.html?program=school-training">Tailored ICT Training For Schools</a></li>
+                    <li><a href="program-details.html?program=adult-training">Adult ICT Training</a></li>
+                    <li><a href="programs.html">See More...</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Reach out to Us</h3>
+                <ul>
+                    <li><i class="fas fa-phone"></i> +234 901 086 9268</li>
+                    <li><i class="fas fa-envelope"></i> charistechnologies123@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Opposite Former Adebayo Hospital, Around Former Gov Akala's Residence, Randa Area, Ogbomoso.</li>
+                </ul>
+                <h3 style="margin-top: 1.5rem;">Connect with us</h3>
+                <ul>
+                    <li><i class="fab fa-facebook"></i> Charis_Technologies</li>
+                    <li><i class="fab fa-instagram"></i> charistechnologies_official</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Charis Technologies. All rights reserved. | Empowering Generations Through Technology</p>
+        </div>
+    </footer>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>

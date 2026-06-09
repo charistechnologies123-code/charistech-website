@@ -1,0 +1,67 @@
+CHARIS TECHNOLOGIES - IMAGE GUIDE
+===================================
+
+REQUIRED IMAGES FOR YOUR WEBSITE
+---------------------------------
+
+Please add the following images to this 'assets' folder:
+
+LOGO (HIGHEST PRIORITY!)
+------------------------
+File: logo.png
+Size: 200x200 pixels (or similar square)
+Format: PNG with transparent background
+Description: Your Charis Technologies logo
+
+PROGRAM IMAGES (800x600 pixels recommended)
+-------------------------------------------
+1. digital-literacy.jpg - Photo showing computer training/digital literacy
+2. summer-bootcamp.jpg - Photo of kids coding or learning programming
+3. school-training.jpg - Photo of ICT training in a school setting
+4. adult-training.jpg - Photo of adults learning computer skills
+5. web-design.jpg - Photo related to web design/no-code tools
+6. frontend-dev.jpg - Photo of frontend development/coding
+7. backend-dev.jpg - Photo of backend/server development
+8. fullstack-dev.jpg - Photo of full-stack development
+9. python.jpg - Photo related to Python programming
+10. mobile-dev.jpg - Photo of mobile app development
+11. cybersecurity.jpg - Photo related to cyber security/ethical hacking
+12. graphics.jpg - Photo of graphic design work
+13. uiux.jpg - Photo of UI/UX design process
+14. data-analytics.jpg - Photo of data analysis/visualization
+
+GALLERY IMAGES (1200x900 pixels recommended)
+---------------------------------------------
+1. gallery-1.jpg - Summer Coding Bootcamp photo
+2. gallery-2.jpg - Digital Literacy Workshop photo
+3. gallery-3.jpg - Certificate Award Ceremony photo
+4. gallery-4.jpg - Tech Hub Workspace photo
+5. gallery-5.jpg - Community Tech Outreach photo
+6. gallery-6.jpg - Hands-on Training Session photo
+
+WHERE TO GET IMAGES
+-------------------
+Option 1: Use your own photos from actual training sessions (BEST!)
+Option 2: Use free stock photos from:
+  - Unsplash.com
+  - Pexels.com
+  - Pixabay.com
+
+SEARCH TERMS FOR STOCK PHOTOS
+------------------------------
+- "coding class"
+- "computer training"
+- "students learning technology"
+- "programming education"
+- "tech workspace"
+- "digital literacy"
+
+IMPORTANT TIPS
+--------------
+✓ Use high-quality images (minimum 800px width)
+✓ Keep file sizes reasonable (under 500KB per image)
+✓ Use .jpg for photos, .png for graphics/logos
+✓ Name files exactly as shown above (lowercase, with hyphens)
+✓ Your own photos from real training sessions work best!
+
+After adding images, your website will look complete and professional!

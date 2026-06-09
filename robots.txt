@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://charistech.org/sitemap.xml
+Host: charistech.org

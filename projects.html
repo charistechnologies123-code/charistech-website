@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Charis Technologies projects and web-based solutions including WorkaHive, JDJ3LLC.com, and rubyLMS.">
+    <title>Projects - Charis Technologies</title>
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Shared site navigation; Projects stays featured as the last item -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="Charis Technologies Logo">
+                <div class="logo-text">
+                    <span class="logo-main">CHARIS TECHNOLOGIES</span>
+                    <span class="logo-tagline">...empowering generations through technology</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="programs.html" class="nav-link">Programs</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                <li><a href="projects.html" class="nav-link nav-link-featured">Projects</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <section class="hero" style="min-height: 52vh;">
+            <div class="hero-container" style="grid-template-columns: 1fr;">
+                <div class="hero-content" style="text-align: center;">
+                    <h1>Our Projects</h1>
+                    <p>Web-based solutions we are building and deploying across hiring, commerce, and digital learning.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project cards double as lightweight preview windows for each product -->
+        <section class="programs-section bg-light">
+            <div class="container">
+                <div class="cards-grid">
+                    <article class="card project-highlight" id="workahive">
+                        <!-- If a site blocks iframe embedding, swap this iframe for a local fallback screenshot -->
+                        <div class="project-preview">
+                            <div class="project-preview-bar">
+                                <div class="project-preview-dots"><span></span><span></span><span></span></div>
+                                <div class="project-preview-url">https://workahive.vercel.app</div>
+                            </div>
+                            <div class="project-preview-screen">
+                                <iframe class="project-preview-frame" src="https://workahive.vercel.app" title="WorkaHive website preview" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="project-kicker">Jobs Web App</div>
+                        <h2 class="card-title">WorkaHive</h2>
+                        <p class="card-description">WorkaHive is a jobs web app built to make job discovery, application flow, and hiring interactions more practical for both talent and employers.</p>
+                        <div class="project-meta">
+                            <span class="project-chip"><i class="fas fa-magnifying-glass"></i> Talent Discovery</span>
+                            <span class="project-chip"><i class="fas fa-briefcase"></i> Employer Tools</span>
+                            <span class="project-chip"><i class="fas fa-eye"></i> Demo on Request</span>
+                        </div>
+                        <div class="project-link-row">
+                            <!-- Demo requests for private apps are routed to WhatsApp with a prefilled message -->
+                            <a href="https://wa.me/2349010869268?text=Hello%20Charis%20Technologies%2C%20I%20would%20like%20to%20request%20a%20demo%20of%20WorkaHive." target="_blank" class="btn btn-secondary">Request Demo</a>
+                        </div>
+                    </article>
+
+                    <article class="card project-highlight" id="jdj3llc">
+                        <!-- Public products can show a live embedded preview and link directly out -->
+                        <div class="project-preview">
+                            <div class="project-preview-bar">
+                                <div class="project-preview-dots"><span></span><span></span><span></span></div>
+                                <div class="project-preview-url">https://jdj3llc.com</div>
+                            </div>
+                            <div class="project-preview-screen">
+                                <iframe class="project-preview-frame" src="https://jdj3llc.com" title="JDJ3LLC website preview" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="project-kicker">E-commerce Platform</div>
+                        <h2 class="card-title">JDJ3LLC.com</h2>
+                        <p class="card-description">A commerce platform designed for digital storefronts, product visibility, and a smoother path from browsing to checkout.</p>
+                        <div class="project-meta">
+                            <span class="project-chip"><i class="fas fa-globe"></i> Public Site</span>
+                            <span class="project-chip"><i class="fas fa-cart-shopping"></i> E-commerce</span>
+                            <span class="project-chip"><i class="fas fa-bolt"></i> Live Preview</span>
+                        </div>
+                        <div class="project-link-row">
+                            <a href="https://jdj3llc.com" target="_blank" class="btn btn-secondary">Visit Website</a>
+                        </div>
+                    </article>
+
+                    <article class="card project-highlight" id="rubylms">
+                        <!-- Same preview pattern as WorkaHive so we can swap between iframe and screenshot easily -->
+                        <div class="project-preview">
+                            <div class="project-preview-bar">
+                                <div class="project-preview-dots"><span></span><span></span><span></span></div>
+                                <div class="project-preview-url">https://rubylms.vercel.app</div>
+                            </div>
+                            <div class="project-preview-screen">
+                                <iframe class="project-preview-frame" src="https://rubylms.vercel.app" title="rubyLMS website preview" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="project-kicker">Learning Management System</div>
+                        <h2 class="card-title">RubyLMS</h2>
+                        <p class="card-description">RubyLMS is our learning management system for course delivery, learner progress, assessment flow, and organized digital classroom management.</p>
+                        <div class="project-meta">
+                            <span class="project-chip"><i class="fas fa-book-open"></i> Course Delivery</span>
+                            <span class="project-chip"><i class="fas fa-chart-line"></i> Progress Tracking</span>
+                            <span class="project-chip"><i class="fas fa-eye"></i> Demo on Request</span>
+                        </div>
+                        <div class="project-link-row">
+                            <!-- rubyLMS demo requests also go through WhatsApp so the team can respond directly -->
+                            <a href="https://wa.me/2349010869268?text=Hello%20Charis%20Technologies%2C%20I%20would%20like%20to%20request%20a%20demo%20of%20rubyLMS." target="_blank" class="btn btn-secondary">Request Demo</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section" style="background: linear-gradient(135deg, #1a2b5c 0%, #2d4a8e 100%); padding: 5rem 2rem; text-align: center;">
+            <div class="container">
+                <h2 style="color: white; font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1.5rem;">Need a Similar Product?</h2>
+                <p style="color: rgba(255, 255, 255, 0.9); font-size: clamp(1rem, 2vw, 1.25rem); margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto;">
+                    We build web-based solutions for training, business growth, and digital operations. Let’s talk about your idea.
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="contact.html" class="btn btn-primary">Start a Project</a>
+                    <a href="services.html" class="btn btn-outline" style="border-color: white; color: white;">View Services</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="Charis Technologies Logo">
+                    <div class="logo-text">
+                        <span class="logo-main" style="color: white;">CHARIS TECHNOLOGIES</span>
+                    </div>
+                </div>
+                <p class="footer-description">Empowering generations through technology...</p>
+                <div class="social-links">
+                    <a href="https://facebook.com/Charis_Technologies" target="_blank" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com/charistechnologies_official" target="_blank" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://youtube.com/@charistechnologies?si=3oK4QC-bNrfTRnDN" target="_blank" class="social-link" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://linkedin.com/company/charistechnologies" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Our Programs</h3>
+                <ul>
+                    <li><a href="program-details.html?program=digital-literacy">Digital & AI Literacy (DAIL)</a></li>
+                    <li><a href="program-details.html?program=summer-bootcamp">Future Skills Bootcamp</a></li>
+                    <li><a href="program-details.html?program=school-training">Tailored ICT Training For Schools</a></li>
+                    <li><a href="program-details.html?program=adult-training">Adult ICT Training</a></li>
+                    <li><a href="programs.html">See More...</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Reach out to Us</h3>
+                <ul>
+                    <li><i class="fas fa-phone"></i> +234 901 086 9268</li>
+                    <li><i class="fas fa-envelope"></i> charistechnologies123@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Opposite Former Adebayo Hospital, Around Former Gov Akala's Residence, Randa Area, Ogbomoso.</li>
+                </ul>
+                <h3 style="margin-top: 1.5rem;">Connect with us</h3>
+                <ul>
+                    <li><i class="fab fa-facebook"></i> Charis_Technologies</li>
+                    <li><i class="fab fa-instagram"></i> charistechnologies_official</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Charis Technologies. All rights reserved. | Empowering Generations Through Technology</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

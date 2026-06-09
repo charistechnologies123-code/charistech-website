@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Charis Technologies - Get in touch for programs, services, partnerships, and inquiries. Ogbomoso, Nigeria.">
+    <meta name="keywords" content="contact Charis Technologies, tech training Ogbomoso, tech services Nigeria">
+    
+    <title>Contact Us - Charis Technologies</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- ============================================
+         NAVIGATION BAR
+         ============================================ -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="Charis Technologies Logo">
+                <div class="logo-text">
+                    <span class="logo-main">CHARIS TECHNOLOGIES</span>
+                    <span class="logo-tagline">...empowering generations through technology</span>
+                </div>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="programs.html" class="nav-link">Programs</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                <li><a href="projects.html" class="nav-link nav-link-featured">Projects</a></li>
+            </ul>
+            
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- ============================================
+         PAGE HEADER
+         ============================================ -->
+    <main id="main-content">
+        <section class="hero" style="min-height: 40vh;">
+            <div class="hero-container" style="grid-template-columns: 1fr;">
+                <div class="hero-content" style="text-align: center;">
+                    <h1>Get In Touch</h1>
+                    <p>We'd love to hear from you. Reach out for programs, services, partnerships, or general inquiries.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============================================
+             CONTACT FORM & INFO
+             ============================================ -->
+        <section class="contact-section bg-light">
+            <div class="container">
+                <div class="contact-grid">
+                    <!-- Contact Form -->
+                    <div class="contact-form">
+                        <h2 style="margin-bottom: 1.5rem; color: var(--primary-blue);">Send Us a Message</h2>
+                        <form id="contactForm" action="https://formspree.io/f/mykvvddg" method="POST">
+                            <input type="hidden" name="_subject" value="Charis Technologies Contact Form Submission">
+                            <div class="form-group">
+                                <label for="name">Full Name <span style="color: red;">*</span></label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address <span style="color: red;">*</span></label>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+234 XXX XXX XXXX">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject <span style="color: red;">*</span></label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="program">Program Inquiry</option>
+                                    <option value="service">Service Request</option>
+                                    <option value="partnership">Partnership/Collaboration</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="support">Technical Support</option>
+                                    
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message <span style="color: red;">*</span></label>
+                                <textarea id="message" name="message" placeholder="Tell us more about your inquiry..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <!-- Contact Information -->
+                    <div class="contact-info">
+                        <h2 style="margin-bottom: 2rem; color: var(--primary-blue);">Contact Information</h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone & WhatsApp</h3>
+                                <p>+234 901 086 9268 <br> <sub> 24/7 </sub></p>
+                                <!--
+                                <p style="font-size: 0.9rem; color: var(--medium-gray);">24/7</p> -->
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>charistechnologies123@gmail.com</p>
+                                <p style="font-size: 0.9rem; color: var(--medium-gray);">We'll respond within 24 hours</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p>Opposite Former Adebayo Hospital, Around Former Gov Akala's Residence, Randa Area, Ogbomoso.</p>
+                                <p style="font-size: 0.9rem; color: var(--medium-gray);">Visit us by appointment</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-facebook"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Social Media</h3>
+                                <p>
+                                    <a href="https://facebook.com/Charis_Technologies" target="_blank" style="color: var(--accent-purple);">Facebook: Charis_Technologies</a><br>
+                                    <a href="https://instagram.com/charistechnologies_official" target="_blank" style="color: var(--accent-purple);">Instagram: charistechnologies_official</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============================================
+             OFFICE HOURS & FAQ
+             ============================================ -->
+        <section class="office-hours-section">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+                    <!-- Office Hours -->
+                    <div class="card">
+                        <div style="font-size: 3rem; color: var(--accent-purple); margin-bottom: 1rem; text-align: center;">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3 class="card-title" style="text-align: center;">Office Hours</h3>
+                        <div style="margin-top: 1.5rem;">
+                            <div style="display: flex; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid var(--light-blue);">
+                                <span style="font-weight: 600;">Monday - Friday</span>
+                                <span>9:00 AM - 6:00 PM</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; padding: 0.75rem 0; border-bottom: 1px solid var(--light-blue);">
+                                <span style="font-weight: 600;">Saturday</span>
+                                <span>10:00 AM - 6:00 PM</span>
+                            </div>
+                            <div style="display: flex; justify-content: space-between; padding: 0.75rem 0;">
+                                <span style="font-weight: 600;">Sunday</span>
+                                <span style="color: var(--accent-red);">Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Actions -->
+                    <div class="card">
+                        <div style="font-size: 3rem; color: var(--accent-purple); margin-bottom: 1rem; text-align: center;">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="card-title" style="text-align: center;">Quick Actions</h3>
+                        <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
+                            <a href="programs.html" class="btn btn-small btn-secondary" style="width: 100%; text-align: center;">
+                                <i class="fas fa-graduation-cap"></i> Browse Programs
+                            </a>
+                            <a href="services.html" class="btn btn-small btn-secondary" style="width: 100%; text-align: center;">
+                                <i class="fas fa-cogs"></i> View Services
+                            </a>
+                            <a href="https://wa.me/2349010869268" target="_blank" class="btn btn-small btn-outline" style="width: 100%; text-align: center;">
+                                <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Visit Us -->
+                    <div class="card">
+                        <div style="font-size: 3rem; color: var(--accent-purple); margin-bottom: 1rem; text-align: center;">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3 class="card-title" style="text-align: center;">Visit Our Office</h3>
+                        <p style="text-align: center; margin: 1.5rem 0;">
+                            We welcome visitors by appointment. Contact us to schedule a visit to our tech hub and see our facilities.
+                        </p>
+                        <div style="text-align: center;">
+                            <a href="#contactForm" class="btn btn-small btn-primary">Schedule Visit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============================================
+             FAQs
+             ============================================ -->
+        <section class="faq-section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Frequently Asked Questions</h2>
+                </div>
+                
+                <div style="max-width: 900px; margin: 0 auto;">
+                    <div class="card" style="margin-bottom: 1.5rem;">
+                        <h3 style="color: var(--accent-purple); margin-bottom: 0.75rem;">How do I enroll in a program?</h3>
+                        <p>You can enroll by using the register button the programs page, calling us, or sending a WhatsApp message. We'll guide you through the registration process and provide all necessary information.</p>
+                    </div>
+                    
+                    <div class="card" style="margin-bottom: 1.5rem;">
+                        <h3 style="color: var(--accent-purple); margin-bottom: 0.75rem;">Do you offer payment plans?</h3>
+                        <p>Yes! We understand that affordability is important. We offer flexible payment plans for most of our programs. Contact us to discuss options that work for you.</p>
+                    </div>
+                    
+                    <div class="card" style="margin-bottom: 1.5rem;">
+                        <h3 style="color: var(--accent-purple); margin-bottom: 0.75rem;">Can I visit your facility before enrolling?</h3>
+                        <p>Absolutely! We encourage prospective students and parents to visit our tech hub. Please schedule an appointment by contacting us in advance.</p>
+                    </div>
+                    
+                    <div class="card" style="margin-bottom: 1.5rem;">
+                        <h3 style="color: var(--accent-purple); margin-bottom: 0.75rem;">Do you provide certificates?</h3>
+                        <p>Yes, we provide industry-relevant certificates upon successful completion of all our training programs. These certificates validate your skills and knowledge.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h3 style="color: var(--accent-purple); margin-bottom: 0.75rem;">What are your class sizes?</h3>
+                        <p>We maintain small class sizes to ensure personalized attention and effective learning. Most classes have 15-20 students maximum, allowing instructors to give individual support.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ============================================
+             MAP SECTION
+             ============================================ -->
+        <section class="map-section" style="padding: 0;">
+            <div style="width: 100%; height: 450px; background: linear-gradient(135deg, #d4e4f7 0%, #a8d0f0 100%); display: flex; align-items: center; justify-content: center;">
+                <div style="text-align: center; padding: 2rem;">
+                    <i class="fas fa-map-marked-alt" style="font-size: 4rem; color: var(--primary-blue); margin-bottom: 1rem;"></i>
+                    <h3 style="color: var(--primary-blue); margin-bottom: 1rem;">Find Us in Ogbomoso</h3>
+                    <p style="color: var(--dark-gray); max-width: 500px;">
+                        Our exact location will be shared upon appointment booking. We serve clients across Ogbomoso and surrounding areas.
+                    </p>
+                    <a href="https://wa.me/2349010869268?text=Hi%2C%20I%27d%20like%20to%20get%20directions%20to%20Charis%20Technologies" target="_blank" class="btn btn-secondary" style="margin-top: 1.5rem;">
+                        <i class="fab fa-whatsapp"></i> Get Directions
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="Charis Technologies Logo">
+                    <div class="logo-text">
+                        <span class="logo-main" style="color: white;">CHARIS TECHNOLOGIES</span>
+                    </div>
+                </div>
+                <p class="footer-description"> Empowering generations through technology...  </p>
+                <div class="social-links">
+                    <a href="https://facebook.com/Charis_Technologies" target="_blank" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com/charistechnologies_official" target="_blank" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://youtube.com/@charistechnologies?si=3oK4QC-bNrfTRnDN" target="_blank" class="social-link" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                     <!--                     <a href="https://twitter.com/charistech" target="_blank" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    -->
+                    <a href="https://linkedin.com/company/charistechnologies" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Our Programs</h3>
+                <ul>
+                    <li><a href="program-details.html?program=digital-literacy">Digital & AI Literacy (DAIL)</a></li>
+                    <li><a href="program-details.html?program=summer-bootcamp">Future Skills Bootcamp</a></li>
+                    <li><a href="program-details.html?program=school-training">Tailored ICT Training For Schools</a></li>
+                    <li><a href="program-details.html?program=adult-training">Adult ICT Training</a></li>
+                    <li><a href="programs.html">See More...</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Reach out to Us</h3>
+                <ul>
+                    <li><i class="fas fa-phone"></i> +234 901 086 9268</li>
+                    <li><i class="fas fa-envelope"></i> charistechnologies123@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Opposite Former Adebayo Hospital, Around Former Gov Akala's Residence, Randa Area, Ogbomoso.</li>
+                </ul>
+                <h3 style="margin-top: 1.5rem;">Connect with us</h3>
+                <ul>
+                    <li><i class="fab fa-facebook"></i> Charis_Technologies</li>
+                    <li><i class="fab fa-instagram"></i> charistechnologies_official </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Charis Technologies. All rights reserved. | Empowering Generations Through Technology</p>
+        </div>
+    </footer>
+    
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

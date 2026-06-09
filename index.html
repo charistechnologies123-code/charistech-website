@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Charis Technologies - Empowering generations through technology. Tech training, web development, gadget repairs, and business workspace in Nigeria.">
+    <meta name="keywords"
+        content="tech training Nigeria, coding bootcamp, web development, app development, gadget repairs, ICT training">
+    <meta name="author" content="Charis Technologies">
+
+    <title> Charis Technologies - Empowering Generations Through Technology </title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/fav.png">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- ============================================
+         NAVIGATION BAR
+         ============================================ -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="Charis Technologies Logo">
+                <div class="logo-text">
+                    <span class="logo-main">CHARIS TECHNOLOGIES</span>
+                    <span class="logo-tagline">...empowering generations through technology</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="programs.html" class="nav-link">Programs</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                <li><a href="projects.html" class="nav-link nav-link-featured">Projects</a></li>
+            </ul>
+
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <main id="main-content">
+        <section class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1>Empowering Generations Through Technology</h1>
+                    <p>Building a technologically empowered nation by nurturing tech prodigies and equipping every
+                        citizen to harness the power of innovation.</p>
+                    <div class="hero-buttons">
+                        <a href="programs.html" class="btn btn-primary">Explore Programs</a>
+                        <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <!-- Placeholder for hero image/illustration -->
+                    <svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg" class="hero-image">
+                        <!-- Tech-themed illustration -->
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#8b2fc9;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#e91e63;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+
+                        <!-- Monitor -->
+                        <rect x="100" y="120" width="300" height="200" rx="10" fill="url(#grad1)" opacity="0.2" />
+                        <rect x="110" y="130" width="280" height="160" rx="5" fill="#1a2b5c" />
+                        <rect x="120" y="140" width="260" height="130" fill="#d4e4f7" />
+
+                        <!-- Code lines -->
+                        <line x1="130" y1="155" x2="220" y2="155" stroke="#8b2fc9" stroke-width="3" />
+                        <line x1="130" y1="175" x2="280" y2="175" stroke="#e91e63" stroke-width="3" />
+                        <line x1="130" y1="195" x2="250" y2="195" stroke="#8b2fc9" stroke-width="3" />
+                        <line x1="130" y1="215" x2="300" y2="215" stroke="#e91e63" stroke-width="3" />
+                        <line x1="130" y1="235" x2="200" y2="235" stroke="#8b2fc9" stroke-width="3" />
+
+                        <!-- Monitor stand -->
+                        <rect x="220" y="290" width="60" height="20" fill="#1a2b5c" />
+                        <rect x="180" y="310" width="140" height="10" rx="5" fill="#1a2b5c" />
+
+                        <!-- Floating elements -->
+                        <circle cx="80" cy="80" r="25" fill="#8b2fc9" opacity="0.6">
+                            <animate attributeName="cy" values="80;90;80" dur="3s" repeatCount="indefinite" />
+                        </circle>
+                        <circle cx="420" cy="100" r="20" fill="#e91e63" opacity="0.6">
+                            <animate attributeName="cy" values="100;110;100" dur="4s" repeatCount="indefinite" />
+                        </circle>
+                        <circle cx="430" cy="280" r="30" fill="#8b2fc9" opacity="0.6">
+                            <animate attributeName="cy" values="280;290;280" dur="3.5s" repeatCount="indefinite" />
+                        </circle>
+
+                        <!-- Gear icons -->
+                        <text x="60" y="90" font-size="30" fill="#fff">⚙</text>
+                        <text x="400" y="110" font-size="25" fill="#fff">💡</text>
+                        <text x="410" y="295" font-size="35" fill="#fff">🚀</text>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             PROGRAMS PREVIEW
+             ============================================ -->
+        <section class="programs-section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Programs</h2>
+                    <p class="section-subtitle">Practical, hands-on learning for youth and professionals. Designed to
+                        build real-world digital skills, earn industry-relevant certifications, and prepare learners for
+                        academic success, career opportunities, and a tech-driven future.</p>
+                </div>
+
+                <div class="cards-grid">
+                    <!-- Program Card 1 -->
+                    <div class="card">
+                        <img src="assets/digital-literacy.jpeg" alt="Digital & AI Literacy (DAIL)" class="card-image">
+                        <h3 class="card-title">Digital & AI Literacy (DAIL)</h3>
+                        <p class="card-description">Master essential digital skills, online safety, and responsible
+                            technology use. Perfect for beginners of all ages.</p>
+                        <a href="program-details.html?program=digital-literacy" class="card-link">Learn More</a>
+                    </div>
+
+                    <!-- Program Card 2 -->
+                    <div class="card">
+                        <img src="assets/summer-bootcamp.jpg" alt="Future Skills Bootcamp" class="card-image">
+                        <h3 class="card-title">Future Skills Bootcamp</h3>
+                        <p class="card-description">Intensive coding experience for kids aged 9-16. Learn Scratch,
+                            Python, and build real projects during summer break.</p>
+                        <a href="program-details.html?program=summer-bootcamp" class="card-link">Learn More</a>
+                    </div>
+
+                    <!-- Program Card 3 -->
+                    <div class="card">
+                        <img src="assets/school-training.jpg" alt="Tailored ICT Training For Schools"
+                            class="card-image">
+                        <h3 class="card-title">Tailored ICT Training For Schools</h3>
+                        <p class="card-description">Customized technology curriculum for schools. Equip students and
+                            teachers with modern digital skills.</p>
+                        <a href="program-details.html?program=school-training" class="card-link">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="text-center mt-lg">
+                    <a href="programs.html" class="btn btn-secondary">See All Programs</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Homepage preview of the Projects page; keeps the three products visible from the landing page -->
+        <section class="programs-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Projects</h2>
+                    <p class="section-subtitle">Real web-based products built by Charis Technologies, from job access to commerce and digital learning.</p>
+                </div>
+
+                <div class="cards-grid">
+                    <article class="card project-highlight">
+                        <!-- Same preview markup as the dedicated Projects page for consistency -->
+                        <div class="project-preview">
+                            <div class="project-preview-bar">
+                                <div class="project-preview-dots"><span></span><span></span><span></span></div>
+                                <div class="project-preview-url">https://workahive.vercel.app</div>
+                            </div>
+                            <div class="project-preview-screen">
+                                <iframe class="project-preview-frame" src="https://workahive.vercel.app" title="WorkaHive website preview" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="project-kicker">Jobs Platform</div>
+                        <h3 class="card-title">WorkaHive</h3>
+                        <p class="card-description">A job-focused web app designed to connect talent with real opportunities through a cleaner, smarter hiring flow.</p>
+                        <div class="project-meta">
+                            <span class="project-chip"><i class="fas fa-users"></i> Hiring-ready</span>
+                            <span class="project-chip"><i class="fas fa-laptop-code"></i> Web App</span>
+                        </div>
+                        <a href="projects.html#workahive" class="card-link">View Preview</a>
+                    </article>
+
+                    <article class="card project-highlight">
+                        <!-- Live iframe preview for the public ecommerce site -->
+                        <div class="project-preview">
+                            <div class="project-preview-bar">
+                                <div class="project-preview-dots"><span></span><span></span><span></span></div>
+                                <div class="project-preview-url">https://jdj3llc.com</div>
+                            </div>
+                            <div class="project-preview-screen">
+                                <iframe class="project-preview-frame" src="https://jdj3llc.com" title="JDJ3LLC website preview" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="project-kicker">E-commerce Platform</div>
+                        <h3 class="card-title">JDJ3LLC.com</h3>
+                        <p class="card-description">An online commerce platform built for modern product discovery, smoother buying, and scalable digital sales.</p>
+                        <div class="project-meta">
+                            <span class="project-chip"><i class="fas fa-cart-shopping"></i> Live Store</span>
+                            <span class="project-chip"><i class="fas fa-globe"></i> Public Site</span>
+                        </div>
+                        <a href="projects.html#jdj3llc" class="card-link">View Preview</a>
+                    </article>
+
+                    <article class="card project-highlight">
+                        <!-- rubyLMS is previewed here too so the homepage and Projects page stay in sync -->
+                        <div class="project-preview">
+                            <div class="project-preview-bar">
+                                <div class="project-preview-dots"><span></span><span></span><span></span></div>
+                                <div class="project-preview-url">https://rubylms.vercel.app</div>
+                            </div>
+                            <div class="project-preview-screen">
+                                <iframe class="project-preview-frame" src="https://rubylms.vercel.app" title="rubyLMS website preview" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        <div class="project-kicker">Learning System</div>
+                        <h3 class="card-title">rubyLMS</h3>
+                        <p class="card-description">Our learning management system for structured teaching, student progress, and streamlined digital course delivery.</p>
+                        <div class="project-meta">
+                            <span class="project-chip"><i class="fas fa-book-open"></i> LMS</span>
+                            <span class="project-chip"><i class="fas fa-chart-line"></i> EdTech</span>
+                        </div>
+                        <a href="projects.html#rubylms" class="card-link">View Preview</a>
+                    </article>
+                </div>
+
+                <div class="text-center mt-lg">
+                    <a href="projects.html" class="btn btn-secondary">Explore All Projects</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             SERVICES PREVIEW
+             ============================================ -->
+        <section class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-subtitle">From web development to gadget repairs, we provide comprehensive tech
+                        solutions for individuals and businesses.</p>
+                </div>
+
+                <div class="cards-grid">
+                    <div class="card" id="web-design">
+                        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                            <i class="fas fa-laptop-code" style="font-size: 80px; color: white;"></i>
+                        </div>
+                        <h3 class="card-title">Web Design</h3>
+                        <p class="card-description">Beautiful, responsive websites built for your brand and your customers. Modern design, clear messaging, and a strong digital presence.</p>
+                        <ul style="list-style: none; padding: 0; margin: 1rem 0;">
+                            <li><i class="fas fa-check" style="color: var(--accent-purple);"></i> Responsive layouts for all devices</li>
+                            <li><i class="fas fa-check" style="color: var(--accent-purple);"></i> Clear, brand-focused design</li>
+                            <li><i class="fas fa-check" style="color: var(--accent-purple);"></i> Fast performance and mobile-ready pages</li>
+                        </ul>
+                        <a href="contact.html?service=web-design" class="card-link">Learn More</a>
+                    </div>
+
+                    <div class="card" id="graphics">
+                        <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                            <i class="fas fa-palette" style="font-size: 80px; color: white;"></i>
+                        </div>
+                        <h3 class="card-title">Graphics</h3>
+                        <p class="card-description">Creative visuals that bring your identity to life. We design logos, print materials, and digital assets that make your brand memorable.</p>
+                        <ul style="list-style: none; padding: 0; margin: 1rem 0;">
+                            <li><i class="fas fa-check" style="color: var(--accent-purple);"></i> Logo & brand assets</li>
+                            <li><i class="fas fa-check" style="color: var(--accent-purple);"></i> Print & digital design</li>
+                            <li><i class="fas fa-check" style="color: var(--accent-purple);"></i> Marketing visuals</li>
+                        </ul>
+                        <a href="contact.html?service=graphics" class="card-link">Learn More</a>
+                    </div>
+
+                    <div class="card" id="social-media">
+                        <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); height: 200px; border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+                            <i class="fas fa-bullhorn" style="font-size: 80px; color: white;"></i>
+                        </div>
+                        <h3 class="card-title">Social Media & Digital Marketing</h3>
+                        <p class="card-description">Grow your brand online with social media management, paid marketing, and digital campaign strategy.</p>
+                        <ul style="list-style: none; padding: 0; margin: 1rem 0;">
+                            <li><i class="fas fa-check" style="color: var(--accent-purple);"></i> Content planning & posting</li>
+                            <li><i class="fas fa-check" style="color: var(--accent-purple);"></i> Audience growth and engagement</li>
+                            <li><i class="fas fa-check" style="color: var(--accent-purple);"></i> Ads management and optimization</li>
+                        </ul>
+                        <a href="contact.html?service=social-media" class="card-link">Learn More</a>
+                    </div>
+                </div>
+
+                <div class="text-center mt-lg">
+                    <a href="services.html" class="btn btn-secondary">See All Services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================
+             TESTIMONIALS
+             ============================================ -->
+        
+            <!-- Testimonial code goes here -->
+
+
+        <!-- ============================================
+             GALLERY
+             ============================================ -->
+        
+             <!-- Gallery Code Here -->
+
+
+        <!-- ============================================
+             CALL TO ACTION
+             ============================================ -->
+        <section class="cta-section"
+            style="background: linear-gradient(135deg, #1a2b5c 0%, #2d4a8e 100%); padding: 5rem 2rem; text-align: center;">
+            <div class="container">
+                <h2 style="color: white; font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1.5rem;">Ready to Start Your
+                    Tech Journey?</h2>
+                <p
+                    style="color: rgba(255, 255, 255, 0.9); font-size: clamp(1rem, 2vw, 1.25rem); margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto;">
+                    Join hundreds of students and professionals who have transformed their lives through technology with
+                    Charis Technologies.
+                </p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="programs.html" class="btn btn-primary">Enroll Now</a>
+                    <a href="contact.html" class="btn btn-outline" style="border-color: white; color: white;">Get In
+                        Touch</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="assets/logo.png" alt="Charis Technologies Logo">
+                    <div class="logo-text">
+                        <span class="logo-main" style="color: white;">CHARIS TECHNOLOGIES</span>
+                    </div>
+                </div>
+                <p class="footer-description">
+                    Empowering generations through technology...
+                </p>
+                <div class="social-links">
+                    <a href="https://facebook.com/Charis_Technologies" target="_blank" class="social-link"
+                        aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://instagram.com/charistechnologies_official" target="_blank" class="social-link"
+                        aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://youtube.com/@charistechnologies?si=3oK4QC-bNrfTRnDN" target="_blank" class="social-link"
+                        aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <!--                     <a href="https://twitter.com/charistech" target="_blank" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+
+                    -->
+
+                    <a href="https://linkedin.com/company/charistechnologies" target="_blank" class="social-link"
+                        aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="programs.html">Programs</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Our Programs</h3>
+                <ul>
+                    <li><a href="program-details.html?program=digital-literacy">Digital & AI Literacy (DAIL)</a></li>
+                    <li><a href="program-details.html?program=summer-bootcamp">Future Skills Bootcamp</a></li>
+                    <li><a href="program-details.html?program=school-training">Tailored ICT Training For Schools</a></li>
+                    <li><a href="program-details.html?program=adult-training">Adult ICT Training</a></li>
+                    <li><a href="programs.html">See More...</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Reach out to Us</h3>
+                <ul>
+                    <li><i class="fas fa-phone"></i> +234 901 086 9268</li>
+                    <li><i class="fas fa-envelope"></i> charistechnologies123@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Opposite Former Adebayo Hospital, Around Former Gov Akala's Residence, Randa Area, Ogbomoso.</li>
+                </ul>
+                <h3 style="margin-top: 1.5rem;">Connect with us</h3>
+                <ul>
+                    <li><i class="fab fa-facebook"></i> Charis_Technologies</li>
+                    <li><i class="fab fa-instagram"></i> charistechnologies_official </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Charis Technologies. All rights reserved. | Empowering Generations Through Technology</p>
+        </div>
+    </footer>
+
+
+
+    <!-- GALLERY LIGHTBOX (Modern Viewer) -->
+    <div class="gallery-lightbox" aria-hidden="true">
+        <div class="gallery-lightbox__backdrop" data-close></div>
+
+        <div class="gallery-lightbox__dialog" role="dialog" aria-modal="true" aria-label="Image viewer">
+
+            <button class="gallery-lightbox__close" type="button" aria-label="Close viewer" data-close>
+                &times;
+            </button>
+
+            <button class="gallery-lightbox__nav gallery-lightbox__prev" type="button" aria-label="Previous image">
+                ‹
+            </button>
+
+            <figure class="gallery-lightbox__figure">
+                <img class="gallery-lightbox__img" alt="">
+                <figcaption class="gallery-lightbox__caption"></figcaption>
+            </figure>
+
+            <button class="gallery-lightbox__nav gallery-lightbox__next" type="button" aria-label="Next image">
+                ›
+            </button>
+
+            <div class="gallery-lightbox__meta" aria-live="polite">
+                <span class="gallery-lightbox__counter"></span>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+
+</html>
