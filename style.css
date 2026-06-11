@@ -223,6 +223,18 @@ p {
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(74, 45, 130, 0.18);
 }
+.promo-banner .promo-cta .btn:last-child {
+  /* Register button - red accent to stand out */
+  background: var(--accent-red);
+  color: var(--white);
+  box-shadow: 0 8px 20px rgba(230, 57, 70, 0.3);
+}
+.promo-banner .promo-cta .btn:last-child:hover {
+  background: var(--accent-red-dark);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(230, 57, 70, 0.4);
+}
 .promo-banner .promo-close {
   position: absolute;
   top: 0.5rem;
