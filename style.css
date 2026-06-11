@@ -223,15 +223,26 @@ p {
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(74, 45, 130, 0.18);
 }
-.promo-banner .promo-cta .btn:last-child {
-  /* Register button - red accent to stand out */
-  background: var(--accent-red);
-  color: var(--white);
+/* Ensure default promo CTAs are high-contrast (white) and return View Curriculum to white */
+.promo-banner .promo-cta .btn {
+  background: var(--white);
+  color: var(--primary-purple);
+}
+
+/* Register button - target by common patterns: explicit class, data-attr, or second child (fallback)
+   Add specificity so only Register stands out. */
+.promo-banner .promo-cta .btn.register,
+.promo-banner .promo-cta .btn[data-role="register"],
+.promo-banner .promo-cta .btn:nth-child(2) {
+  background: var(--accent-red) !important;
+  color: var(--white) !important;
   box-shadow: 0 8px 20px rgba(230, 57, 70, 0.3);
 }
-.promo-banner .promo-cta .btn:last-child:hover {
-  background: var(--accent-red-dark);
-  color: var(--white);
+.promo-banner .promo-cta .btn.register:hover,
+.promo-banner .promo-cta .btn[data-role="register"]:hover,
+.promo-banner .promo-cta .btn:nth-child(2):hover {
+  background: var(--accent-red-dark) !important;
+  color: var(--white) !important;
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(230, 57, 70, 0.4);
 }
